@@ -1,0 +1,28 @@
+{
+  "name": "fit365.github.io",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fit365/fit365.github.io.git"
+  },
+  "keywords": [
+    "personal",
+    "training",
+    "exercise",
+    "fit",
+    "crossfit",
+    "workout",
+    "strength"
+  ],
+  "author": "Tommy Dugger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fit365/fit365.github.io/issues"
+  },
+  "homepage": "https://github.com/fit365/fit365.github.io"
+}
