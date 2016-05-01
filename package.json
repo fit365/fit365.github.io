@@ -10,19 +10,28 @@
     "type": "git",
     "url": "https://github.com/fit365/fit365.github.io.git"
   },
-  "keywords": [
-    "personal",
-    "training",
-    "exercise",
-    "fit",
-    "crossfit",
-    "workout",
-    "strength"
-  ],
   "author": "Tommy Dugger",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/fit365/fit365.github.io/issues"
   },
-  "homepage": "https://github.com/fit365/fit365.github.io"
+  "homepage": "https://github.com/fit365/fit365.github.io",
+  "dependencies": {
+    "radium": "^0.14.0",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-object-assign": "^6.5.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-react": "^6.0.0",
+    "live-server": "^0.8.1",
+    "webpack": "^1.0.0"
+  },
+  "scripts": {
+    "compile": "webpack ./src/index.js ./bundle.js -p --progress",
+    "demo": "webpack ./src/index.js ./bundle.js --config webpack.config.js -w & node ./server.js"
+  }
 }
