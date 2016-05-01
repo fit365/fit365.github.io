@@ -16,6 +16,9 @@ const Header = React.createClass({
             365
           </span>
         </div>
+        <div style={styles.quote}>
+          Don't wish for it, Work for it.
+        </div>
       </div>
     );
   },
@@ -23,8 +26,10 @@ const Header = React.createClass({
   styles () {
     return {
       component: {
+        alignItems: 'center',
         backgroundColor: StyleConstants.Colors.DARKGREY,
         display: 'flex',
+        flexDirection: 'column',
         height: 550,
         justifyContent: 'center',
         width: '100%'
@@ -41,6 +46,12 @@ const Header = React.createClass({
       },
       title: {
         padding: 100
+      },
+      quote: {
+        color: StyleConstants.Colors.PORCELAIN,
+        fontFamily: StyleConstants.Fonts.THIN,
+        fontSize: 50,
+        textTransform: 'uppercase'
       }
     }
   }
