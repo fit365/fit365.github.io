@@ -16,8 +16,8 @@ const Header = React.createClass({
   styles () {
     return {
       component: {
-        backgroundColor: StyleConstants.Colors.CHARCOAL,
-        height: 350,
+        backgroundColor: StyleConstants.Colors.PRIMARY,
+        height: 450,
         width: '100%'
       }
     }
