@@ -1,5 +1,7 @@
 const React = require('react');
 
+const FitnessIcon = require('./FitnessIcon');
+
 const StyleConstants = require('../constants/Style');
 
 const Header = React.createClass({
@@ -9,6 +11,13 @@ const Header = React.createClass({
     return (
       <div style={styles.component}>
         <div style={styles.title}>
+          <span>
+            <FitnessIcon
+              fillColor={StyleConstants.Colors.FOG}
+              size={30}
+              type='weight-lifter'
+            />
+          </span>
           <span style={styles.fit}>
             FIT
           </span>
