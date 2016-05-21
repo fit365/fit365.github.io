@@ -100,9 +100,23 @@ const Content = React.createClass({
 
     return (
       <div>
-        <p style={styles.textWrapper}>
-          Contact Me!
-        </p>
+        <div style={styles.title}>
+          Contact
+        </div>
+        <div>
+          <div style={styles.contactBlock}>
+            <span style={styles.contactType}>Phone:</span>
+            <span>(505) 860-7730</span>
+          </div>
+          <div style={styles.contactBlock}>
+            <span style={styles.contactType}>Email:</span>
+            <span>fit365pt@gmail.com</span>
+          </div>
+          <div style={styles.contactBlock}>
+            <span style={styles.contactType}>Facebook:</span>
+            <span><a href='https://www.facebook.com/FIT365PersonalTraining/'>https://www.facebook.com/FIT365PersonalTraining/</a></span>
+          </div>
+        </div>
       </div>
     );
   },
@@ -141,6 +155,15 @@ const Content = React.createClass({
         alignItems: 'center',
         display: 'flex',
         justifyContent: 'center'
+      },
+      contactBlock: {
+        fontSize: StyleConstants.FontSizes.XXLARGE,
+        paddingBottom: 20
+      },
+      contactType: {
+        color: StyleConstants.Colors.PRIMARY,
+        fontFamily: StyleConstants.Fonts.SEMIBOLD,
+        marginRight: 10
       },
       contentWrapper: {
         width: 700,
