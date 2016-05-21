@@ -12,9 +12,14 @@ const Content = React.createClass({
 
     return (
       <div>
-        <p style={styles.textWrapper}>
-          Program!
-        </p>
+        <div style={styles.title}>
+          Program
+        </div>
+        <div>
+          <p style={styles.textWrapper}>
+            Program!
+          </p>
+        </div>
       </div>
     );
   },
@@ -24,9 +29,14 @@ const Content = React.createClass({
 
     return (
       <div>
-        <p style={styles.textWrapper}>
-          Locations!
-        </p>
+        <div style={styles.title}>
+          Locations
+        </div>
+        <div>
+          <p style={styles.textWrapper}>
+            Locations!
+          </p>
+        </div>
       </div>
     );
   },
