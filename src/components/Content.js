@@ -17,7 +17,35 @@ const Content = React.createClass({
         </div>
         <div>
           <p style={styles.textWrapper}>
-            Program!
+            I earned my Personal Trainer Certification through <a href='http://www.nasm.org' style={styles.link}>NASM
+            (National Academy of Sports Medicine)</a> and I will strictly adhere to the
+            principles and methods of training that I learned while studying their
+            courses. These methods of training will allow me to train virtually anyone
+            regardless of age, sex , current physical abilities and personal fitness
+            goals. By following the <a href='http://www.nasm.org/landing-pages/opt' style={styles.link}>OPT model</a> (a systematic, progressive training program)
+            that was designed by <a href='http://www.nasm.org' style={styles.link}>NASM</a>, I will take my clients through a series of
+            training phases to help them meet their predetermined fitness goals. Types
+            of training will include:  flexibility, balance, core, resistance,
+            cardiorespiratory, and in some cases plyometric.  Modes of training will
+            include: free weights, cable machines, body weight exercises, various cardio
+            machines (treadmills, stairclimbers, elipticals, bikes) and resistance bands.
+            The use of these different modes will vary from one person to the next based
+            on the individual’s fitness goals.
+          </p>
+          <p style={styles.textWrapper}>
+            A big part of seeing results from this program also includes the possible
+            need to make modifications to an individual’s diet and or eating habits.
+            Because I am not a Registered Dietician I am not able to design meal plans
+            for my clients, however; I can and will be able to make useful recommendations
+            regarding proper eating habits and how making small positive changes to a
+            person’s diet can help them meet their fitness goals.
+          </p>
+          <p style={styles.textWrapper}>
+            I will encourage all of my clients to train with me for as much time as
+            possible in order to achieve the best possible results, however; I do offer
+            the opportunity to train for shorter durations of time.  Just remember that
+            the desired results won’t come in a short period of time!  It will most
+            definitely take time and effort to build the new you.
           </p>
         </div>
       </div>
